@@ -28,9 +28,18 @@ Bu proje, Java Core konularını **paket paket** ele alan, her paketin içinde *
 | 14 | [`p14_gc`](src/p14_gc/NOTES.md) | Garbage Collector, generations, reference tipleri |
 | 15 | [`p15_lambda_streams`](src/p15_lambda_streams/NOTES.md) | Lambda, functional interface, Stream API, Optional |
 | 16 | [`p16_io_nio`](src/p16_io_nio/NOTES.md) | java.io, NIO, Files, Path, Scanner/BufferedReader |
+| 17 | [`p17_reflection`](src/p17_reflection/NOTES.md) | Reflection, `Class<?>`, annotation, dynamic proxy, MethodHandle |
+
+## Uygulama Projeleri (deneme/egzersizler)
+
+| # | Klasör | İçerik |
+|---|---|---|
+| project_1 | [`src/project_1`](src/project_1) | Araç kiralama (rent-a-car) — `BaseVehicle`, `Car`, `Motorcycle`, `Rentable` interface |
+| project_2 | [`src/project_2`](src/project_2) | Basit `Parent` / `Child` inheritance denemesi |
+| project_3 | [`src/project_3`](src/project_3) | `Doctor` hiyerarşisi — `Dentist`, `Cardiologist` (abstract/override) |
 
 ## Önerilen Okuma Sırası
-- **Sıfırdan başlıyorum:** 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 → 15 → 13 → 14 → 16
+- **Sıfırdan başlıyorum:** 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 → 15 → 13 → 14 → 16 → 17
 - **Mülakat tazeleme (1 gün):** 04 (memory), 11 (collections), 13 (thread), 14 (GC), 15 (stream) — klasik sorular buralardan gelir.
 
 ## Mülakat için 20 Kritik Konu (hızlı tazeleme)
@@ -54,6 +63,7 @@ Bu proje, Java Core konularını **paket paket** ele alan, her paketin içinde *
 18. Stream API (map/filter/reduce/collect)
 19. `Optional` doğru kullanımı
 20. GC nesil modeli, strong/weak/soft/phantom reference
+21. Reflection: `getFields` vs `getDeclaredFields`, `InvocationTargetException`, dynamic proxy
 
 ## Çalıştırma
 IntelliJ IDEA'da her `.java` dosyasının `main` metodunu doğrudan çalıştırabilirsin.

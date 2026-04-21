@@ -30,7 +30,10 @@ public class Main {
             "p14_gc                    - Garbage Collector, reference tipleri",
             "p15_lambda_streams        - lambda, Stream API, Optional",
             "p16_io_nio                - Files, Path, I/O",
+            "p17_reflection           - Class<?>, annotation, dynamic proxy",
         };
+        System.out.println();
+        System.out.println("Uygulama projeleri: project_1 (rent a car), project_2 (inheritance), project_3 (doctors)");
         for (String p : pkgs) System.out.println("  - " + p);
     }
 }
